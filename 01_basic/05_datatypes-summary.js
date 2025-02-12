@@ -34,3 +34,32 @@ const myFunction = function(){
 console.log(typeof outsideTemp);
 console.log(typeof heros);
 console.log(typeof myFunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myName ="Ayushwan";
+
+let anotherName = "Ankur";
+anotherName = "Sunendu Sen"
+
+console.log(myName);
+
+console.log(anotherName);
+
+let UserOne = {
+    email: "akppji@gmail.com",
+    upi: "845u98@ybl"
+}
+
+let UserTwo = UserOne;
+
+console.log(UserOne.email);
+
+UserTwo.email = "sen@gmail.com";
+
+console.log(UserOne.email);
+
